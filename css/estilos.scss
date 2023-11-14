@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto+Mono:wght@100..700&display=swap');
+
+$tipografia1:  'Montserrat', sans-serif;
+$tipografia2:  'Roboto Mono', monospace;
+$color-primario: black;
+
+:root{
+    --bs-body-bg: #ffffff;
+    --bs-primary-bg-subtle:transparent;
+   
+  }
+
+  .btn-outline-success{
+
+    --bs-btn-border-color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: black; 
+
+  }
+
+body {
+font-family: $tipografia1;
+
+}
+
+.icon-wink {
+
+color: red;
+font-size: 3rem;
+
+}
+h1 {
+  color: black;
+  font-size: 1.0625em;
+  margin-bottom: 1.93rem;
+}
+
+.carousel-indicators [data-bs-target]{
+
+background-color: $color-primario;
+
+}
+
+.carousel-caption {
+
+    color: $color-primario;
+    background-color: white;
+}
+
+@media (max-width: 768px){
+
+header { height: auto;}
+
+
+
+}
+
+
